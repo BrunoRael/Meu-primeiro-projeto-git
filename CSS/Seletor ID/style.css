@@ -1,0 +1,29 @@
+/*SELTOR É FORMA COMO VAMOS LINKAR O CSS AO HTML*/
+
+* {
+  background-color: aquamarine;
+} /*SELETOR QUE SIGNIFICA TUDO, ELE VAI ALTERAR TUDO NA PÁGINA*/
+
+#titulo {
+  color: crimson;
+  font-size: 55px;
+} /*TEMOS O SELETOR ATRAVÉS DO ID, ELE É ÚNICO
+NÃO PODEMOS COLOCAR O MESMO ID EM OUTRAS TAGS
+CADA TAG VAI TER SEU ID, ASSIM COMO CADA PESSOA
+TEM SEU RG E CPF, É ÚNICO. SEMPRE QUE FOR CHAMAR
+O ID DA TAG, COOLOCAR #*/
+
+#paragrafo {
+   color: chartreuse;
+   font-size: 20px;
+   font-weight: bold;
+} /*FONT-WEIGTH É PARA DEIXAR A FONTE MAIS GROSSA OU
+MAIS FINA, COLOCAMOS A OPÇÃO DE BOLD QUE É NEGRITO*/
+
+#botao {
+    background-color: blueviolet;
+}
+
+#outro-botao{
+    background-color: brown;
+}

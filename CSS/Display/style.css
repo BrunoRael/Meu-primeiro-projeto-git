@@ -1,0 +1,24 @@
+
+ .box {
+    background: #ff1395;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: block; /*ELE OCUPA TODA A LINHA, CONSEGUE COLOCAR, ALTURA,
+    LARGURA E MARGEM*/
+
+    display: inline; /*OS COMPONENTES FICAM EM LINHA, ELE NÃO ACEITA
+    ALTURA, LARGURA E MARGEM, ELE TRATA O ELEMNTO COMO UMA PALAVRA*/
+    
+    display: inline-block; /*ELE TEM CARACTERISTICAS DO INLINE, ONDE
+    ELE FICA EM LINHA, MAS TAMBÉM TEM DO BLOCK, ONDE CONSEGUIMOS POR
+    ALTURA, LARGURA E MARGEM*/
+ }
+
+ .box-2 {
+    background: #FFFF00;
+ }
+
+ .box-3 {
+    background: #0000FF;
+ }

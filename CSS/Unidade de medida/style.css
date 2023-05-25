@@ -1,0 +1,43 @@
+
+  .vo {
+   font-size: 16px;
+  }
+
+.pai {
+     width: 50vw;
+     height: 50vh;
+     background-color: #0000FF;
+     color: #FFFFFF;
+     font-size: 2em;
+}
+
+.filho {
+     width: 50%;
+     height: 50%;
+     background-color: #FF0000;
+     color: #FFFFFF;
+     font-size: 2em;
+
+}
+
+
+/*UNIDADE DE MEDIDAS
+
+     -> ABSOLUTA
+        PX - PIXELS
+        PIXELS, SEMPRE SERÁ PIXELS, ELE NÃO IRÁ SE ADAPTAR AS TELAS
+        TEM TELAS QUE ELE FICARÁ GRANDE DEMAIS, COMO EM TELAS DE 
+        CELULAR, E OUTRAS ELE FICARÁ PEQUENO COMO MONITORES GRANDES.
+
+
+     -> RELATIVA
+        % CALCULA O TAMANHO RELATIVO AO ELEMENTO PAI
+        VW - VIEW WIDTH 1VW É 1% DA LARGURA DA JANELA DO NAVEGADOR
+        VH VIEW HEIGHT 1VH É 1% DA ALTURA DA JANELA DO NAVEGADOR
+        EM É UMA UNIDADE DE MEDIDA RELATIVA AO ELEMENTO PAI
+        REM É UMA UNIDADE RELATIVA AO ELEMENTO RAIZ
+
+        AS UNIDADES RELATIVAS ELAS SEMPRE VÃO SE ADAPTAR A TELAS,
+        SEJA DE CELULAR, TABLETE, NOTBOOK OU COMPUTADOR.
+
+        */

@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vw;
+}
+
+.div-dad{
+    background-color: #ff1396;
+    width: 350px;
+    height: 350px;
+}
+
+.div-son{
+    height: 150px;
+    width:150px;
+    background-color: #ffff00;
+}
+
+.div-brother{
+    height: 150px;
+    width:150px;
+    background-color:#ff0000
+}
+
+/*POSITION
+
+Position: Static (padrão) - Não aceita valores de top, bottom, rigth e left
+Position: Fixed - Fixa o elemnto na tela
+Position: sticky - age como um adesivo, fixa o elemnto somente onde eu determinar
+Position: Realtive - Posição relativa a posição inicial dele
+Position: Absolute - Posição absoluta(fixa) a algum elemento ou a página
+                   - Se não tiver pai / pai for static -> Posiciona referente a página
+                   - Se o pai NÃO for static ->Posiciona referente ao pai
+                   
+Propriedades:
+        -Top
+        -Bottom
+        -Left
+        -Right
+        */

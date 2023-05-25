@@ -1,0 +1,50 @@
+<form action="" method="get">
+    <h1>Digite seu endereço</h1>
+    <label>
+        Rua:
+    <input type="text" name="rua"/>
+    </label>
+
+    <label>
+        Número:
+    <input type="number" name="numero" autocomplete="cc-number"/>
+    </label>
+
+    <label>
+        E-mail:
+    <input type="email" name="email"/>
+    </label>
+
+    <label>
+        Foto:
+    <input type="file" name="arquivo"/>
+    </label>
+    <!--QUANDO COLOCAR UM ARQUEIVO TIPO FILE, SEMPRE POR NO FORMULÁRIO ENCTYPE DO TIPO MULTIPART/FORM-DATA-->
+
+    <button type="submit"> Enviar dados </button> 
+
+    <button type="reset">Reset</button> <!--Botão reset, limpa os campos-->
+
+
+
+</form>
+
+<!--MÉTODO GET, QUANDO SEU COMPUTADOR OU CELULAR SE COMUNICA COM O SERVIDOR ATRAVÉS DA URL-->
+<!--MÉTODO POST, É PARA INFORMAÇÕES SIGILOSAS, ELE ENVIA AS INFORMAÇÕES POR BAIXO DOS PANOS POR ASSIM DIZER-->
+
+
+<form action="" method="post">
+    <h1>Digite seu endereço</h1>
+    <label>
+        Rua:
+    <input type="text" name="rua"/>
+    </label>
+
+    <label>
+        Número:
+    <input type="number" name="rua" autocomplete="cc-number"/>
+    </label>
+
+    <button type="submit"> Enviar dados </button>
+
+</form>

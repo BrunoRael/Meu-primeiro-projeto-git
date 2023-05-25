@@ -1,0 +1,17 @@
+    /*NUNCA SE ESQUECER DE USAR ; NO CSS, É OBRIGATÓRIO*/
+    h1 { 
+        color: darkblue;
+        background-color: darkturquoise;
+        }
+ 
+     P {
+       color: darkorange;
+       font-size: 20px;
+       }
+ /*COLOR, ALTERA A COR DA FONTE, FONT-SIZE, ALTERA O TAMANHO DA FONT*/
+     button {
+         background-color: cyan;
+         border-color: blue;
+     }  
+ /*BACKGROUND-COLOR, MUDA A COR DO FUNDO, BORDER-COLOR, MUDA A COR DA BORDA*/
+ 

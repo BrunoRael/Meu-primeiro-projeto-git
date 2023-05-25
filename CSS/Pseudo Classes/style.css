@@ -1,0 +1,80 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.link-1:active{ /*Active-> Quando o Elemento está ativo, ou seja, sendo prescionado*/
+    color:red;
+}
+
+.link-2:visited{ /*Visited-> Seleciona o link que já foi visitado*/
+    color: green;
+}
+
+p{
+    color:blue;
+}
+
+p:hover{ /*Hover-> Quando o link passa em cima do elemento*/
+    color:yellow;
+}
+
+.input-1:checked{ /*usado em radio, checkbox, select*/
+    width: 100px;
+    height: 100px;
+}
+
+.input-2:focus{ /*Focus-> É aplicado quando o elemnto recebe foco, o que pode ocorrer quando o usuário seleciona o elemento*/
+    border: 1px solid red;
+    outline: none;
+}
+
+.input-3:read-only{ /*Read-only-> Seleciona input ou textarea que são apenas leitura*/
+    border: 1px solid red;
+    outline: none;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.container:empty{ /*Empty-> Elemento que não tem filho*/
+    background: blue;
+}
+
+li:first-child{ /*First-child-> Primeiro filho, ex: primeira li de uma ul, primeiro span de uma div*/
+    color: red;
+}
+
+span:first-of-type{ /*First-of-type-> Primeiro elemento do seu tipo, entre os filhos de seu elemento pai*/
+    color: red;
+}
+
+p:first-of-type{
+    color: yellow;
+}
+
+li:last-child{ /*Last-child-> Último filho*/
+    color:aqua;
+}
+
+.not:not(h1){ /*Estiliza os elementos, exceto o que está dentro dos ()*/
+    color:red;
+}
+
+li:nth-child(3){ /*Nth-child-> Seleciona o elemnto baseado na sua posição. ex: nth-child(3)*/
+    color: blueviolet;
+}
+
+li:nth-last-child(3){ /*Nth-last-child-> Seleciona o elemento, baseado na sua posição, contando de trás para frente*/
+    color:darkorange
+}
+
+/*Disable->Elemento desabilitado, button, input
+Enable->Elemento está habilitado
+Last-of-type ->úlimo elemento de seu tipo entre os filhos de seu elemento pai*/

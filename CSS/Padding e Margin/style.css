@@ -1,0 +1,44 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+    margin: 20px; /*ELE AFASTA OS OUTROS ITENS DELE, CRSCIMENTO EXTERNO*/
+
+}
+
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background: #9932cc;
+    margin: 50px;
+    padding: 30px; /*CRESCIMENTO INTERNO, DE DENTRO PARA FORA*/
+}
+
+.box-3 {
+    width: 50px;
+    height: 50px;
+    background: #0000ff;
+    
+    /*PODEMOS USAR O MARGIN TOP DE OUTRA FORMA TAMBÉM*/
+    margin-top: 20px; /*MARGIM APLICADA EM CIMA*/
+    margin-bottom: 30px; /*MARGIM APLICADA EMBAIXO*/
+    margin-right: 40px; /*DIREITA*/
+    margin-left: 50px; /*ESQUERDA*/
+
+}
+
+.box-4 {
+    width: 50px;
+    height: 50px;
+    background: #ff0000;
+
+    /*PODEMOS USAR O MARGIN OU O PADDING MÉTODO DO RELÓGIO
+    PRIMEIRO EM CIMA, LADO DIREITO, EMBAIXO E LADO ESQUERDO
+    OU PENSAR ASSIM 12H, 15H, 18H, 21H.
+    SE COLOCAR 3 VALORES, O CSS VAI ENTENDER QUE O PRIMEIRO É
+    EM CIMA O ÚLTIMO É PARA BAIXO E O DO MEIO É PARA OS DOIS LADOS.
+    SE COLOCAR DOIS VALORES, O PRIMEIRO VAI SER PARA CIMA E PARA
+    BAIXO, E O SEGUNDO SERÁ PARA OS DOIS LADOS.*/
+    margin: 10px 50px 30px 5px;
+
+}

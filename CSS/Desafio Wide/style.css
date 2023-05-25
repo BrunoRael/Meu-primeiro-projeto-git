@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header{
+    margin: 47px 0 178px 42px;
+}
+
+.link-header{
+    margin-left: 36px;
+}
+
+button{
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    Width: 124px;
+    Height: 51px;
+    margin-left: 36px;
+    cursor:pointer;
+    
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+img{
+    display: inline-block;
+    margin: 0 85px 0 121px;
+}
+
+section{
+    display: inline-block;
+    
+}    
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 582px;
+
+}
+
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    margin: 47px 0 55px 0;
+}
+
+.link-section{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor:pointer;
+}
+
+.link-section:hover{
+    opacity: 0.7;
+}
+
+.link-section:active{
+    opacity: 0.5;
+    color:aquamarine;
+}
+
+@media screen and (max-width: 1300px) {
+    header{
+        display: none;
+    }
+
+    img{
+        padding: 0;
+        margin: 0 22px;
+        width: 90%;
+        display: block;
+        position: absolute;
+        margin-top: 362px;
+    }
+
+    
+    section{
+        display: block;
+        margin: 124px 43px 0 43px;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 30px;
+        width: 278px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        width: 304px;
+        margin: 29px 0 26px 0;
+    }
+
+    
+}
